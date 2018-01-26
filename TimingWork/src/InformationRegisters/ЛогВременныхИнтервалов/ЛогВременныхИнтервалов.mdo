@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0476662e-1d7f-4767-9ca3-3ea8933e2337">
+  <producedTypes>
+    <selectionType typeId="84d6c92a-87ff-4aeb-86af-efbbc0028805" valueTypeId="eea5667e-222a-407f-80a7-8926153c17cd"/>
+    <listType typeId="07771f8f-7670-4a1e-afff-8fc53c2a406c" valueTypeId="499572ef-fe2a-41f0-a973-5635a60ece4e"/>
+    <managerType typeId="e1aecc65-9036-4678-8581-7d24920f5a1d" valueTypeId="b336c5cc-6d52-4bca-8334-d8b161218bf9"/>
+    <recordSetType typeId="ab06f0cf-915e-4db5-9d01-00a5bd707474" valueTypeId="00d4bcad-e476-448d-a534-1eba4d29b2f7"/>
+    <recordKeyType typeId="ae0ea5d9-a1fc-450b-aaf2-9415eb24cc10" valueTypeId="1f9cca08-6526-49af-a4aa-4ad3e7bd5ae6"/>
+    <recordType typeId="68a3fc81-99cb-4f14-b1cc-e270e37e0f7c" valueTypeId="2f4e3935-c22a-4e3f-ab58-8243932c261d"/>
+    <recordManagerType typeId="d18d5c3e-71ad-4c30-bad2-bf4bd1be73ff" valueTypeId="f0520a1b-9b22-40c4-aa2f-26c93ee93bdc"/>
+  </producedTypes>
+  <name>ЛогВременныхИнтервалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лог временных интервалов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="f24edbc3-1103-427a-88ad-ee1765e381a8">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="9b66b760-15ef-49cb-8ca5-6d6e87a364e4">
+    <name>НачалоВременногоИнтервала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало временного интервала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="075f12f7-ed1d-423d-aceb-ac223cc01c94">
+    <name>ТэгИнтервала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тэг интервала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

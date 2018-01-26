@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4fa48ea-e4bb-4bf4-b862-f7a76cffe841">
+  <name>TimingWork</name>
+  <synonym>
+    <key>ru</key>
+    <value>Timing work</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="225b6009-af1d-47ef-b1af-5da19229cd2f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c0d377f2-05d4-4795-be28-e8dca452df6d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f57caf64-c538-4dae-946e-2b719131d646"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="52877e2c-dffa-45b7-87b6-7e660a60d628"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="09be262c-e5e7-45ca-aa13-8c024d0e04fc"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="422a4b4d-2110-4d89-909e-ee8992d8a9b8"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="f42426f7-ad8d-4f19-8bf3-aeb1eb360c97">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <dataProcessors>DataProcessor.Секундомер</dataProcessors>
+  <informationRegisters>InformationRegister.ЛогВременныхИнтервалов</informationRegisters>
+</mdclass:Configuration>

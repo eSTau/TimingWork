@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f888f9b5-48f1-43f9-b356-83b1d0832b3a">
+  <producedTypes>
+    <objectType typeId="7194b8e4-20c1-43cd-9785-69e07aca3044" valueTypeId="c557d943-3716-40cf-acf6-5877f2f818ff"/>
+    <managerType typeId="4d561cd2-2aa0-4d90-aa15-f74d3c301efb" valueTypeId="61ef650c-07e2-408b-9141-7ef51005681a"/>
+  </producedTypes>
+  <name>Секундомер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Секундомер</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Секундомер.Form.Форма</defaultForm>
+  <forms uuid="7ab1e934-6efe-4ea8-9ca2-cbf2f0bb15bc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
